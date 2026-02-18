@@ -33,7 +33,7 @@ export const styles: Record<string, CSSProperties> = {
         color: "#111",
         borderRadius: "20px",
         padding: "18px 20px",
-
+        scrollMarginTop: "300px",
         // 2 Spalten: links Auswahl, rechts Karte
         display: "grid",
         gridTemplateColumns: "1fr 1fr",

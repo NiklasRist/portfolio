@@ -8,6 +8,7 @@ export const styles: Record<string, CSSProperties> = {
         display: "flex",
         flexDirection: "column",
         gap: "20px",
+        scrollMarginTop: "300px",
     },
 
     begruessung: {
@@ -16,8 +17,7 @@ export const styles: Record<string, CSSProperties> = {
         borderRadius: "20px",
         padding: "28px",
         minHeight: "160px",
-        display: "flex",
-        alignItems: "center",
+
     },
 
     praxisbeschreibung: {
@@ -67,4 +67,7 @@ export const styles: Record<string, CSSProperties> = {
         overflow: "hidden",
         background: "#f6f6f6",
     },
+    h1: {
+
+    }
 };

@@ -2,21 +2,20 @@ import {styles} from "./ueber-mich.styles.ts";
 
 export function UeberMich(){
     return (
-        <main style={styles.main}>
+        <main style={styles.main} id="ueber-mich">
             <section style={styles.begruessung}>
-                <h1>Herzlich Wilkommen!</h1>
-            </section>
-            <section style={styles.praxisbeschreibung}>
-                <p>
-                    Wir sind eine wunderbare Praxiskette geführt von erfolgreichen Möwen, spezialisiert auf die Behandlung von Schnäbeln. Text und so viele Worte... Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...Text und so viele Worte...
-                </p>
-            </section>
-            <section style={styles.onlineTermin}>
-                <label style={styles.label}>
-                    <h3> Praxis auswählen: </h3>
-                    <input style={styles.input} />
-                </label>
-                <iframe style={styles.waehlePraxisAufKarteAus} title="Praxisstandorte auf der Karte" loading="lazy"></iframe>
+                <h1 >Über mich:</h1>
+                <section style={styles.praxisbeschreibung}>
+                    <p>
+                        Ich bin ein Informatikstudent mit starker Leidenschaft für Softwareentwicklung und
+                        Problemlösung. Erste Programmiererfahrung sammelte ich bereits mit 13 Jahren
+                        in der RoboticsAG am Karl-Maybach-Gymnasium in Friedrichshafen. Seitdem
+                        habe ich fundierte Kenntnisse in Java, Python, TypeScript, JavaScript sowie
+                        modernen Frameworks wie Spring Boot und React aufgebaut. Nun suche ich ein
+                        Praktikum, um meine technischen Fähigkeiten in einem professionellen Umfeld
+                        einzusetzen und praxisnahe Industrieerfahrung zu gewinnen.
+                    </p>
+                </section>
             </section>
 
         </main>

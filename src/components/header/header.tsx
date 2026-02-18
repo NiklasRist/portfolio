@@ -3,9 +3,9 @@ import {NavLink, type NavLinkRenderProps} from "react-router-dom";
 
 export function Header(){
     const links = [
-        {label: "Projekte", to: "/"},
-        {label: "Kontakt", to: "/kontakt"},
-        {label: "Über mich", to: "/ueber-mich"},
+        {label: "Projekte", to: "/#projekte"},
+        {label: "Kontakt", to: "/#kontakt"},
+        {label: "Über mich", to: "/#ueber-mich"},
     ];
     return (
         <header style={styles.header}>
