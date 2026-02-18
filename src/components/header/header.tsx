@@ -13,7 +13,7 @@ export function Header() {
                 setIsCollapsed(true);
             }
 
-            if (isCollapsed && scrollY < 120) {
+            if (isCollapsed && scrollY < 70) {
                 setIsCollapsed(false);
             }
         };
